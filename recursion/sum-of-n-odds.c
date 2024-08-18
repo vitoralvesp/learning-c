@@ -21,7 +21,8 @@ int main() {
 
 int sum_odd_func(int n) {
 
-    if (n == 1) return 1;
-    else if(n % 2 > 0) return sum_odd_func(n-1);
-
+    if (n <= 1) return 1;
+    else if (n % 2 > 0) return n + sum_odd_func(n-2);
+    else return sum_odd_func(n-2);
+    
 }
