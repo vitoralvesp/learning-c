@@ -1,3 +1,6 @@
+/* LABORATORY CLASS 01 - RECURSION 
+Write a recursive function that calculates the x raised to the power of n, where x and n are positive integers.
+*/
 #include <stdio.h>
 
 int power_of_n(int x, int n);
